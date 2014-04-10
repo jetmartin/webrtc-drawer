@@ -1,0 +1,40 @@
+/* webrtc style file */
+body {
+    font: normal 100%/1.6 helvetica, arial, sans-serif;
+    background : #eee;
+}
+
+#webcam,
+#feed,
+#cible {
+    display: none;
+    margin:0 auto;
+}
+#display,
+#color {
+    border:1px #aaa solid;
+}
+#display {
+    zoom : 0.5;
+}
+#photo, #cible {
+    zoom : 2;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+}
+#containerCible{
+    position:absolute;
+    margin:0 auto;
+    display:block;
+    text-align:center;
+}
+.container{
+    background : #fff;
+    margin : auto;
+    text-align:center;
+    border : 1px #aaa solid;
+    max-width : 800px;
+}
